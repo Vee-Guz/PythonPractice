@@ -133,3 +133,6 @@ list1.pop()     # removes int at the end of list
 #add
 list1.append(6) # adds int 6 to the end of list
 list1.insert(0,10) # insert(index, variable) -- list1 will look --> [10, 0, 2, 3, 4, 6] ~ contains changes from past
+
+#using libraries
+
