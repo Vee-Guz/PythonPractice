@@ -11,8 +11,8 @@ var2 = "German Shepard" 	# string (str)
 var2_a = 'single quotes'
 var2_b = """ doc-string """
 var3 = 123.05 			# float (float)
-var4 = [1, 2, 3, 4] 		# list
-var5 = {1, 2, 3} 		# tuple
+var4 = [1, 2, 3, 4] 		# list - mutable (can change; add or remove)
+var5 = {1, 2, 3} 		# tuple - unmutable (cannot change; stays as it was created)
 var6 = False 			# boolean (bool)
 
 #indexing
@@ -106,6 +106,30 @@ else:
    print("I am smaller than 10")
 
 
+#functions!!
+def function_name(parameter):
+    # we put content in here
+    print(parameter)
 
 
+#example 
+def say_hello(hello_str):
+    print(hello_str)
 
+
+#call method
+say_hello("hola")     
+
+#changing lists
+list1 = [1, 2, 3, 4, 5]
+list1[0] = 0 	# 1 --> 0
+
+#remove
+list1.remove(4) # removes int 4 in the list
+list1.pop(0)    # removes int at index 0
+list1.pop()     # removes int at the end of list
+
+
+#add
+list1.append(6) # adds int 6 to the end of list
+list1.insert(0,10) # insert(index, variable) -- list1 will look --> [10, 0, 2, 3, 4, 6] ~ contains changes from past
