@@ -1,6 +1,3 @@
-print("Hello World!")
-
-
 #first practice
 """Fucntion checks if the num is btw 10 and 20
 if it is print yay!
@@ -15,7 +12,6 @@ Extra pnts. if you site the num
 ex. 1 is not between 10 and 20
 """
 
-
 input_num = int(input("Write a number: "))
 
 if input_num > 10 and input_num < 20:
@@ -24,3 +20,4 @@ if input_num > 10 and input_num < 20:
 else:
    print("boo!")
    print(str(input_num) + " is not between 10 and 20")
+
